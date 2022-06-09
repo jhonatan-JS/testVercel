@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Chatschool</title>
+  <title>GoOn</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/pages/home.min.css" rel="stylesheet">
@@ -21,17 +21,19 @@
         <div class="col col-desktop-9 col-6">
           <nav>
             <ul>
-              <li><a href="file:///C:/Users/Windows/OneDrive/IFMS/Balbino/Projetim%20(2%25)/index.html" class="active">Home</a></li>
-              <li><a href="quem-somos.html">Quem somos</a></li>
-              <li><a href="clientes.html">Clientes</a></li>
+              <li><a style="color: #63E6BE" href="index.html" class="active">Home</a></li>
+              <li><a style="color: #63E6BE" href="quem-somos.html">Quem somos</a></li>
+              <li><a style="color: #63E6BE" href="clientes.html">Clientes</a></li>
             </ul>
           </nav>
         </div>
       </div>
       <div class="row">
         <div class="col col-desktop-12 title">
-          <h1>Think, Make, Solve.</h1>
-          <a href="quem-somos.html" class="btn">Quem Somos</a>
+          <div class="backColor">
+            <h1 class="textAlign" >Think, Make, Solve.</h1>
+          </div>
+          <a href="quem-somos.html" class="btn top">Quem Somos</a>
         </div>
       </div>
     </div>
@@ -74,19 +76,14 @@
       <div class="row">
         
         <div class="col col-offset-desktop-1 col-desktop-2 col-2">
-          <h3>Menu</h3>
+          <h3 style="color: #63E6BE" >Menu</h3>
           <nav>
             <ul>
-              <li><a href="file:///C:/Users/Windows/OneDrive/IFMS/Balbino/Projetim%20(2%25)/index.html" class="active">Home</a></li>
-              <li><a href="quem-somos.html">Quem somos</a></li>
-              <li><a href="clientes.html">Clientes</a></li>
+              <li><a style="color: #63E6BE" href="index.html" class="active">Home</a></li>
+              <li><a style="color: #63E6BE" href="quem-somos.html">Quem somos</a></li>
+              <li><a style="color: #63E6BE" href="clientes.html">Clientes</a></li>
             </ul>
           </nav>
-        </div>
-        <div class="col col-desktop-3 social col-4">
-          <a href=""><img src="images/social-facebook.png" alt=""></a>
-          <a href=""><img src="images/social-twitter.png" alt=""></a>
-          <a href=""><img src="images/social-youtube.png" alt=""></a>
         </div>
       </div>
     </div>
@@ -95,5 +92,25 @@
   <div id="copyright">
     &copy; Tech World - 2022 - Todos os direitos reservados
   </div>
+  <style>
+    .backColor {
+      width: 50%;
+      margin: auto;
+      height: 150px;
+      border-radius: 8px;
+      display: flow-root;
+      background-color: rgba(0,0,0, .8);
+
+    }
+    .textAlign {
+      display: flex;
+      color: #63E6BE;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .top {
+      margin-top: 15px;
+    }
+  </style>
 </body>
 </html>
